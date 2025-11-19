@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-weight: 600;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 82.3vh;
+}
+.main{
+    width: 40%;
+    margin: 100px auto;
+    color: #fff;
+    font-size: 18px;
+}
+#inputShowResult,select{
+    width: 60%;
+    padding: 7px 10px ;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+#inputShowResult{
+    color: black;
+}
+input{
+    margin: 10px auto;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 10px 10px;
+    transition: all 1s ease;
+    color: #313131;
+}
+#copyPass{
+    background-color: chartreuse;
+    border: 1px solid green;
+}
+#copyPass:hover{
+    background-color: rgba(48, 90, 5, 0.877);
+    border: rgb(2, 70, 2);
+    transform: scale(1.1);
+}
+#passStrength{
+    background-color: rgb(172, 16, 16);
+    border: 1px solid rgb(110, 8, 8);
+}
+#passStrength:hover{
+    transform: scale(1.2);
+}
+#generatePass{
+    background-color: rgb(15, 117, 235);
+    border: 1px solid rgb(8, 62, 122);
+}
+#generatePass:hover{
+    background-color: rgb(20, 75, 138);
+    border: rgb(8, 62, 122);
+    transform: scale(1.1);
+}
+@media(max-width:500px){
+    .main{
+        width: 70%;
+    }
+}
