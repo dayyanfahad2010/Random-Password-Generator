@@ -4,9 +4,13 @@ A simple and clean Random Password Generator built using HTML, CSS, and JavaScri
 This tool allows users to:
 
 ✔ Generate a secure random password
+
 ✔ Copy the password to clipboard with one click
+
 ✔ Check password strength (Weak / Medium / Strong)
+
 ✔ Control password length
+
 ✔ Include numbers, symbols, uppercase & lowercase letters
 
 ## 🚀 Features ##
